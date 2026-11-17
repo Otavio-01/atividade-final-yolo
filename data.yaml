@@ -1,0 +1,14 @@
+path: C:\Users\oazin\Desktop\datasets
+train: train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Apple', 'Banana', 'Mango', 'Orange', 'Pineapple', 'Watermelon']
+
+roboflow:
+  workspace: tobeit68-ml
+  project: fruits-detection-flqbb
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tobeit68-ml/fruits-detection-flqbb/dataset/3

@@ -1,0 +1,7 @@
+COMANDOS UTILIZADOS NA ATIVIDADE FINAL - YOLO
+
+1. Comando utilizado para iniciar o treinamento do modelo (por 20 épocas):
+yolo detect train model=yolov8n.pt data="C:\Users\oazin\AulaYOLO\dataset\data.yaml" epochs=20 imgsz=640 batch=4
+
+2. Comando utilizado para testar o modelo treinado nas 5 imagens inéditas:
+yolo detect predict model="C:\Users\oazin\AulaYOLO\runs\detect\train-3\weights\best.pt" source="C:\Users\oazin\AulaYOLO\testes" conf=0.25 save=True
